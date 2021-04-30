@@ -5,8 +5,11 @@ const moduleA = require("./moduleA");
 console.log(moduleA.name);
 console.log(moduleA.age);
 
-const fun1 = require("./moduleB");// 얘 자체가 fun1임 그래서 moduleB()로 실행
-fun1();
+// const fun1 = require("./moduleB");// 얘 자체가 fun1임 그래서 moduleB()로 실행
+// fun1();
+
+const moduleB = require("./moduleB");
+moduleB();
 
 
 

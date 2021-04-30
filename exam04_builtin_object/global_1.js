@@ -10,7 +10,8 @@ global.setTimeout(() => {
 // setUserId("user1");
 
 const setUserId = require("./global_2");
-setUserId.setUserId("user1");
+// setUserId.setUserId("user1");
+setUserId("user1");
 
 console.log(global.userId, userId);
 
